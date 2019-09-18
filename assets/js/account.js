@@ -1,7 +1,7 @@
 function getDate(num) {
   var date = new Date();
   date.setDate(date.getDate() - num);
-  return date.getMonth() + 1 + "/" + date.getDate();
+  return date.getMonth() + 1 + "/" + date.getDate() + "/" + "2019";
 }
 
 function replaceTextInClass(className, text) {
