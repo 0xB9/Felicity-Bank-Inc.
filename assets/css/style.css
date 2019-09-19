@@ -26,6 +26,13 @@ footer {
   text-align: center;
 }
 
+.app {
+  position: fixed;
+  width: 500px;
+  height: 300px;
+  margin: 50px;
+}
+
 .boxcol {
   background-color: white;
   opacity: 0.9;
