@@ -17,6 +17,15 @@ body {
     fixed;
 }
 
+footer {
+  position: fixed;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 .boxcol {
   background-color: white;
   opacity: 0.9;
