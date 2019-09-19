@@ -18,7 +18,7 @@ body {
 }
 
 footer {
-  position: fixed;
+  position: bottom;
   color: white;
   left: 0;
   bottom: 0;
