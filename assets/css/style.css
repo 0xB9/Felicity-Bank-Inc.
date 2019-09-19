@@ -26,6 +26,10 @@ footer {
   text-align: center;
 }
 
+.index {
+  position: fixed;
+}
+
 .app {
   position: fixed;
   width: 500px;
