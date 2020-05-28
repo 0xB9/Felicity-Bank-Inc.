@@ -1,0 +1,7 @@
+# Turn on rewrite engine
+RewriteEngine on
+
+# Remove HTML extensions from the URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
